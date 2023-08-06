@@ -3,4 +3,71 @@
 * {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+  margin: 0px;
+}
+
+/* Header styles */
+header {
+  background-color: rgb(255, 240, 242);
+  padding: 50px 240px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #424242;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+/* Banner is a box. When max-width 100% is used, it takes full space of that box in width */
+.banner img {
+  max-width: 100%;
+}
+
+.banner-content {
+  max-width: 850px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.btn-primary {
+  border: none;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  background: #ff900e;
+  width: 180px;
+  height: 64px;
 }
