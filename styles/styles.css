@@ -10,7 +10,7 @@
   margin: 0px;
 }
 
-/*  */
+/*  */ /*  */
 /* Shared Styles */
 
 .text-light-gray {
@@ -22,7 +22,7 @@
   font-weight: 700;
 }
 
-/*  */
+/*  */ /*  */
 /* Header styles */
 header {
   background-color: rgb(255, 240, 242);
@@ -87,7 +87,7 @@ nav li a {
   cursor: pointer;
 }
 
-/*  */
+/*  */ /*  */
 /* Quick List Section Styles */
 .quick-list-section {
   max-width: 1100px;
@@ -127,8 +127,8 @@ nav li a {
   line-height: 26px; /* 162.5% */
 }
 
-/*  */
-/* Facts Section */
+/*  */ /*  */
+/* Facts Section Styles */
 .facts-container {
   margin: 100px 220px;
 }
@@ -156,7 +156,32 @@ nav li a {
   border-bottom: 10px;
 }
 
-/*  */
+/*  */ /*  */
+/* Sponsors Section Styles */
+
+.sponsors-content {
+  margin: 180px 500px 50px;
+  text-align: center;
+}
+.sponsors-content h1 {
+  color: var(--dark-01, #131313);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sponsors-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 180px 50px;
+}
+
+.sponsors-logo img {
+  width: 130px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/*  */ /*  */
 /* Responsive Media Queries */
 @media screen and (max-width: 576px) {
   header {
