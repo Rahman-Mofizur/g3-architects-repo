@@ -135,7 +135,7 @@ nav li a {
   gap: 80px;
 }
 
-.feaure-container img {
+.feaure-container .feature-image img {
   max-width: 600px;
 }
 
@@ -167,6 +167,23 @@ nav li a {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.feature-image button {
+  position: relative;
+  right: 70px;
+  bottom: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 10px 30px;
+}
+
+.feature-image span {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 70px;
 }
 
 /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
@@ -311,6 +328,27 @@ footer p {
     margin: 80px 30px;
     /* flex: 1; */
   }
+
+  .feaure-container .feature-image img {
+    max-width: 100%;
+    /* It ensutes that the image takes full space of your container */
+  }
+
+  .feaure-container .feature-image button {
+    position: static;
+    padding: 5px 20px;
+    margin: 30px auto;
+    width: 100%;
+    align-content: center;
+  }
+
+  .feature-image span {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 0px;
+    margin-bottom: 0px;
+  }
+
   footer {
     margin: 60px 60px 80px;
   }
